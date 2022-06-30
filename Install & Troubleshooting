@@ -1,7 +1,8 @@
 #!/bin/bash
 
-curl -o setup_agent.sh https://setup.instana.io/agent && chmod 700 ./setup_agent.sh && sudo ./setup_agent.sh -a qUMhYJxjSv6uZh2SyqTEnw -d qUMhYJxjSv6uZh2SyqTEnw -t dynamic -e 52.117.94.180:1444   
-
+curl -o setup_agent.sh https://setup.instana.io/agent && chmod 700 ./setup_agent.sh && sudo ./setup_agent.sh -a qUMhYJxjSv6uZh2SyqTEnw -d qUMhYJxjSv6uZh2SyqTEnw -t dynamic -e 67.228.227.210:1444   
+          
+          
 Issue 1: No Data monitoring coming
 
 Open port 80,443,86,1444
