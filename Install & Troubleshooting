@@ -1,5 +1,7 @@
 #!/bin/bash
 
+1. install linux agent on VM
+
 curl -o setup_agent.sh https://setup.instana.io/agent && chmod 700 ./setup_agent.sh && sudo ./setup_agent.sh -a qUMhYJxjSv6uZh2SyqTEnw -d qUMhYJxjSv6uZh2SyqTEnw -t dynamic -e 67.228.227.210:1444   
 
 
@@ -8,3 +10,7 @@ systemctl enable instana-agent.service
 systemctl status instana-agent.service
         
 Infrastucture Map shows
+
+2.  Openshift agent from local OC
+
+oc login --token=sha256~vJDiU2p0Em7YmKrYcsRnsRRpq5yrK5wnzs2qTW24hys --server=https://c118-e.us-south.containers.cloud.ibm.com:30106
