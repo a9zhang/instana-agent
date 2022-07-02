@@ -14,3 +14,7 @@ Infrastucture Map shows
 2.  Openshift agent from local OC
 
 oc login --token=sha256~vJDiU2p0Em7YmKrYcsRnsRRpq5yrK5wnzs2qTW24hys --server=https://c118-e.us-south.containers.cloud.ibm.com:30106
+
+looking for instana-agent pod deployed
+
+Issues: Infrastucture Map not showing Openshift Cluster Nodes
