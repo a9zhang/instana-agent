@@ -1,21 +1,15 @@
 #!/bin/bash
 
 curl -o setup_agent.sh https://setup.instana.io/agent && chmod 700 ./setup_agent.sh && sudo ./setup_agent.sh -a qUMhYJxjSv6uZh2SyqTEnw -d qUMhYJxjSv6uZh2SyqTEnw -t dynamic -e 67.228.227.210:1444   
-          
-          
-Issue 1: No Data monitoring coming
 
-Open port 80,443,86,1444
-https://askubuntu.com/questions/1259860/on-ubuntu-20-04-how-do-you-open-a-port-in-the-firewall
-
-Issue 2: Agent not started
 
 systemctl start instana-agent.service
 systemctl enable instana-agent.service
 systemctl status instana-agent.service
+          
+Issue 1: No Data monitoring coming
+Open port 80,443,86,1444
+https://askubuntu.com/questions/1259860/on-ubuntu-20-04-how-do-you-open-a-port-in-the-firewall
 
-Confirm Data Pulling In and Infrastruct Map showing
+Issue 2: Service Screen shows no service
 
-Isse 3: Service Screen Shows no Data
-
-Application Perspective?
